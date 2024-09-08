@@ -1,8 +1,8 @@
 streamlit
 pandas
 os
-google
+google-generativeai
 IPython
-langchain_google_genai
+langchain-google-genai
 langchain
-langchain
+
