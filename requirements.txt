@@ -1,0 +1,8 @@
+Streamlit
+Pandas
+os
+Google Generative Ai
+IPython Display
+LangChain Google Generative AI
+LangChain Prompts
+LangChain Chains
