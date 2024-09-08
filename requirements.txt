@@ -1,7 +1,7 @@
 Streamlit
 Pandas
-os
-Google Generative Ai
+OS
+Google Generative AI
 IPython Display
 LangChain Google Generative AI
 LangChain Prompts
