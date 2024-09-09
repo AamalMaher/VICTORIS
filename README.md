@@ -1,21 +1,30 @@
-# HERE is a translation model from every language to english
-### first file "trans_endpoint":
-#### *first part
-1.set up the Google API key for generative AI. <br>
-2.Initialize the generative model which is "gimini_pro".<br>
-3.Initialize the language model for chat.<br>
-4.Define the prompt template for translation.<br>
-5.Create a chain for the translation task.<br>
-#### *second part
-Initialize Flask app,
-Endpoint to translate text to English.<br>
-Expects JSON input with a 'text' field.<br>
+#  translation model 
+### I utilize Google’s Gemini translation model to convert text into English by providing it with specific prompts.<br>
+# translation api
 
-### secound file "trans_app":
-1.Set up the Streamlit app. <br>
-2.Text area for user input.<br>
-3.Button to trigger translation.<br>
 
+Base URL<br>
+`http://127.0.0.1:5000`
+  
+## API Endpoint<br>
+### 1.Translate Text (/translate)
+- **URL**: `/translate`
+- **Method**: `POST`<br>
+- **Description**:`Translates the provided text to English`.
+#### **Request Body**:
+```
+{
+  "text": "text that you want to translate"
+}
+```
+#### **Success Response**:
+- **Code**: `200 OK`
+#### **Response Body**:<br>
+```
+{
+  "Translated text": "translated text here"
+}
+```
 ## here is live api from streamlit , lets try it:
 https://victoris-jpg3zajivdafw3u72e6sa7.streamlit.app/
 
