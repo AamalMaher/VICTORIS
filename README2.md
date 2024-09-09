@@ -26,3 +26,5 @@ Technology Stack
     -   A text area for entering the text to be translated.
     -   A button to trigger the translation action.
 -   **Output**: The translated text is displayed.
+## Here is live api from streamlit , lets try it:
+https://victoris-jpg3zajivdafw3u72e6sa7.streamlit.app/
