@@ -17,4 +17,5 @@ Expects JSON input with a 'text' field.<br>
 3.Button to trigger translation.<br>
 
 ## here is live api from streamlit , lets try it:
+https://victoris-jpg3zajivdafw3u72e6sa7.streamlit.app/
 
