@@ -14,7 +14,7 @@ Base URL<br>
 #### **Request Body**:
 ```
 {
-  "text": "text that you want to translate"
+  "data": "text that you want to translate"
 }
 ```
 #### **Success Response**:
