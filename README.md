@@ -25,6 +25,5 @@ Base URL<br>
   "Translated text": "translated text here"
 }
 ```
-## here is live api from streamlit , lets try it:
-https://victoris-jpg3zajivdafw3u72e6sa7.streamlit.app/
+
 
