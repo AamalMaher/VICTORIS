@@ -25,5 +25,13 @@ Base URL<br>
   "Translated text": "translated text here"
 }
 ```
+#### **Error Responses**:
+- **Code**: `400 Bad Request`
+- **Content**:
+  ```json
+  {
+   "error": "Input JSON must contain 'email' and 'description' fields"
+  }
+  ```
 
 
