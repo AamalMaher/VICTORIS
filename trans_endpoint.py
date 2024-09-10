@@ -37,7 +37,10 @@ def translate_text():
     """
     text = request.get_json()
     data = pd.DataFrame(text)
-    text_to_translate = data["data"].values[0]
+    text_to_translate = data["text"].values[0]
+
+    if "text" not in data.columns:
+        return jsonify({"error":"input JSON must contain 'text' feild"})  ,400 
     
     if not text_to_translate:
         return jsonify({'error': 'No input text provided'}), 400
