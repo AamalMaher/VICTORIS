@@ -29,8 +29,8 @@ Base URL<br>
 - **Code**: `400 Bad Request`
 - **Content**:
   ```json
-  {
-   "error": "Input JSON must contain 'email' and 'description' fields"
+  { 
+     "error": "Input JSON must contain 'text' field"  
   }
   ```
 
